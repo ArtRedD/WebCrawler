@@ -12,5 +12,5 @@ output1.xlsx - is the output file with the following fields:
 5) "images" - links to images on the current wiki page concattenated with ' ; '
 
 To run the web crawler the function wiki_crawler(path, start_url, links_lim=1000) should be run, where parameters are as follows:
-'path' - path to the output .xlsx file
-'start_url' - url of the wiki page to start crawler from
+1) 'path' - path to the output .xlsx file
+2) 'start_url' - url of the wiki page to start crawler from
