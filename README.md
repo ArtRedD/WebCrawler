@@ -3,6 +3,7 @@ This web Crawler is made to perform BFS (breadth-first-search) through russian w
 1) links (link of the page from which this page was reached, link for the current page, and concatenated links for images found on this page),
 2) heading of the current page
 3) concatenated sub-headings on the current page
+
 It does so by utilizing python librarier 'requests' and 'bs4' with a 'sleep_time' variable defined before functions, used in time.sleep(sleep_time) function call to prevent too much requests being sent too frequently
 
 output1.xlsx - is the output file with the following fields:
