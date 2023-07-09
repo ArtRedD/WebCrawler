@@ -15,9 +15,11 @@ output1.xlsx - is the output file with the following fields:
 5) "images" - links to images on the current wiki page concattenated with ' ; '
 
 /////
-DevOpsLab1_ArtemBelov_V2.ipynb - is a modification of the DevOpsLab1_ArtemBelov.ipynb that saves images as base64 binary format instead of links to them
-output2.xlsx - output file for the new version of the script
+
+DevOpsLab1_ArtemBelov_V2.ipynb - is a modification of the DevOpsLab1_ArtemBelov.ipynb that saves images as base64 binary format instead of links to them <br>
+output2.xlsx - output file for the new version of the script <br>
 Instead of concattenation, binary images are inserted into separate columns in a row corresponding to the wiki page they were found on
+
 /////
 
 To run the web crawler the function wiki_crawler(path, start_url, links_lim=1000) in DevOpsLab1_ArtemBelov.ipynb should be run, where parameters are as follows:
